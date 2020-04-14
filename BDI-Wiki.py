@@ -28,8 +28,8 @@ async def wikilink(ctx, *article):
 	# Avoid recursive trigger
 	if ctx.author == bot.user:
 		return
+	# Compose link in BDI MediaWiki format
 	for word in article:
-		# Compose link in BDI MediaWIKI format
 		if word == 'of' or word == 'if' or word == 'and' or word == 'is' or word == 'a':
          		s = word
 		else:
