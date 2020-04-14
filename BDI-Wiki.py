@@ -30,7 +30,7 @@ async def wikilink(ctx, *article):
 		return
 	# Compose link in BDI MediaWiki format
 	for word in article:
-		if word == 'of' or word == 'if' or word == 'and' or word == 'is' or word == 'a':
+		if word == 'of' or word == 'the' or word == 'if' or word == 'and' or word == 'is' or word == 'a':
          		s = word
 		else:
 	 		s = word[0].upper() + word[1:]
