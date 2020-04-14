@@ -1,6 +1,6 @@
-# BDI Wiki Link Discord Bot
+# BDI-Wiki.py, a Discord port of the Eggdrop TCL script
+# Takes a basic search term and integrates it into a wiki link
 # 2020 freakuancy@gmail.com
-# bot.py
 
 # dependancies
 import os
